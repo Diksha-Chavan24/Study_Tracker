@@ -223,7 +223,7 @@ class StudyTracker
         // Display the details as per subject
         for(String str : tobj.keySet())
         {
-            System.out.println("Date : "+str+" Total study "+tobj.get(str));
+            System.out.println("Subject : "+str+" Total study "+tobj.get(str));
         }
         
         
@@ -254,6 +254,7 @@ class program558    // StudyTrackerStarter
             System.out.println("6 : Exit");
             
             iChoice = ScannerObj.nextInt();
+            ScannerObj.nextLine();
             
             switch (iChoice) 
             {
